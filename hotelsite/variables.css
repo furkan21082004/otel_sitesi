@@ -1,0 +1,115 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+::-webkit-scrollbar {background:black;width: 10px;}
+::-webkit-scrollbar-thumb{background:var(--primarycolor)}  
+
+html {
+    scroll-behavior: smooth;
+  }
+:root{
+    --primarycolor:#330100;
+    --secondarycolor:#FF9800;
+    --thirdcolor:#607274;
+    --fourthcolor: #17a2b8 ;
+    --fivethcolor:#343a40 ;
+    --sixthcolor:  #dc3545;
+    --white:#fff;
+    --lacivert: #08112b
+}
+
+
+.bg-primary { background-color: var(--primarycolor); }
+.bg-secondary { background-color: var(--secondarycolor); }
+.bg-third { background-color: var(--thirdcolor); }
+.bg-fourth { background-color: var(--fourthcolor); }
+.bg-five { background-color: var(--fivethcolor); }
+.bg-sixth { background-color: var(--sixthcolor);}
+.bg-seven {background-color:var(--lacivert);color: white;}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;}
+
+
+.btn2 {
+cursor: pointer;
+display: inline-block;
+padding: 12px 22px;
+border: none;
+border-radius: 15px;
+margin-top: 3%;}
+
+
+.btn2:hover {
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--primarycolor);
+}
+
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--secondarycolor);
+}
+
+.btn-secondary:hover {
+    color: var(--white);
+    background-color: var(--secondarycolor);
+}
+
+.btn-third {
+    color: var(--white);
+    background-color: var(--thirdcolor);
+}
+
+
+.btn-fourth {
+    color: var(--white);
+    background-color: var(--fourthcolor);
+}
+
+.btn-fiveth {
+    color: var(--white);
+    background-color: var(--fivethcolor);
+}
+
+.btn-sixth {
+    color: var(--white);
+    background-color: var(--sixthcolor);
+}
+
+.btn-outline-primary {
+    background: transparent;
+    border: 1px solid var(--primarycolor);
+    color: black;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--secondarycolor);
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
+
+
+.icon{font-size: 25px;display: flex;;transition: 1s}
+
+.icon:hover{color:var(--secondarycolor);transform: rotate(10deg);}
+
+.icons{font-size: 30px;transition: 1s;color: var(--lacivert);background-color: var(--secondarycolor);border:3px solid var(--secondarycolor);}
+.icons:hover{color: var(--thirdcolor);}
+
+ul {list-style: none;}
+a {text-decoration: none;}
+.bgimg{background-size: cover;background-repeat: no-repeat;background-position:bottom center;object-fit: cover;}
+.text-center{text-align: center;}

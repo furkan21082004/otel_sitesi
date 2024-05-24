@@ -1,0 +1,65 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.element {overflow-x: hidden;}
+body{width: 100vw;height:400vh;background-color: black;}
+nav {width: 100vw;height:15vh;display: grid;grid-template-columns: repeat(3,1fr);background-color:#17a2b8;opacity: 0.9;}
+.logo h2 {margin-left: 15px;}
+.logo {display: flex;justify-content: center;align-items: center;margin-left: 10px;}
+.link {display: flex;justify-content: center;align-items: center;}
+.link a {margin-left: 20px;text-decoration: none;color: black;margin-top: 5px;border-bottom: 3px solid darkred;font-weight: bold;transition: 0.7s;}
+.sembol {display: flex;justify-content: center;align-items: center;}
+.link a:hover {border-bottom: 3px solid white;}
+.sembol a {margin-left: 15px;}
+.sembol i {font-size:24px;color: black;margin-top: 7px;margin-left: 5px;}
+.facebook {background-color: darkblue;}
+.instagram {color: rgb(211, 62, 201);}
+
+header {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(img/masalar.jpg);
+    background-repeat: no-repeat;
+    align-content: space-evenly;
+    display: grid;
+    grid-template-columns: 400px auto;
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+
+
+header div {
+    color: black;
+    margin: 20px;
+    margin-left: 100px;
+   
+}
+
+header div h2,
+header div h1 {
+    margin: 10px;
+    border-bottom: 1px solid yellow;
+}
+
+header div p {
+    font-weight: bold;
+    margin: 15px;
+}
+
+header div a {
+    background-color: #FB88B4;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+
+main {display: grid;grid-template-columns:repeat(3,auto);grid-template-rows: repeat(2,auto);justify-content: space-around;margin-top: 15px}
+main article{width: 300px; height: 320px;margin-bottom: 25px;background-color: #C7C8CC;}
+main article h2 , main article p {text-align: center;margin: 5px;padding: 5px;}
+
+
+
+
